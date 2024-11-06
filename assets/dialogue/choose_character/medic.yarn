@@ -3,7 +3,7 @@ title: ChooseMedic
 You're a medic now!
 An enemy approaches! What do you do?
 -> Punch it in the face.
-    You got to punch the enemy in the face, but you're a weak little medic!
+    You go to punch the enemy in the face, but you're a weak little medic!
     The enemy slashed you with a sword!
     <<jump YouDied>>
 -> Start healing everyone!
