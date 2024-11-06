@@ -1,0 +1,23 @@
+title: ChooseWarrior
+---
+You're a warrior now!
+An enemy approaches! What do you do?
+-> Run up and slash it with your sword!
+    You run straight at the the enemy, slashin' like a wild man!
+    And...
+    it works!
+    <<jump EnemyDefeated>>
+-> Turn and start running away!
+    You turn and start running, but your sword is too heavy!
+    The enemy hits you in the back with an arrow.
+    <<jump YouDied>>
+-> Hang back and let the others go ahead.
+    You stay behind like a little wussy.
+    The medic and archer get killed, and now your team needs to retreat.
+    Your sword is too heavy, and you can't get away in time!
+    <<jump YouDied>>
+-> Run out into the field and scream like a headless chicken!
+    You run around blindly, and the enemy slashes you in half!
+    <<jump YouDied>>
+
+===

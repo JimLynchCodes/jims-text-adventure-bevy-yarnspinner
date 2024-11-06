@@ -1,0 +1,21 @@
+title: ChooseMedic
+---
+You're a medic now!
+An enemy approaches! What do you do?
+-> Punch it in the face.
+    You got to punch the enemy in the face, but you're a weak little medic!
+    The enemy slashed you with a sword!
+    <<jump YouDied>>
+-> Start healing everyone!
+    You started spamming your heal ability, but everyone has full health!
+    You wasted all you mana, and couldn't heal the team in key moments of the battle... 
+    <<jump YouDied>>
+-> Hang back and let the others go ahead.
+    You stay behind the others, healing them at key moments during the battle.
+    <<jump EnemyDefeated>>
+-> Run out into the field and scream like a headless chicken!
+    You run around blindly, and the enemy slashes you in half!
+    <<jump YouDied>>
+
+
+===

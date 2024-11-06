@@ -1,0 +1,40 @@
+title: JimsGame
+---
+Hey there!
+Glad you finally got a chance to play Jim's text-based rpg action adventure game!
+<<jump ChooseCharacter>>
+
+===
+title: ChooseCharacter
+---
+What kind of character do you want to be?
+-> Warrior with a large sword.
+    <<jump ChooseWarrior>>
+-> Archer with deadly accuracy.
+    <<jump ChooseArcher>>
+-> Mage who can shoot fireballs.
+    <<jump ChooseMage>>
+-> Medic who can heal teammates.
+    <<jump ChooseMedic>>
+
+===
+
+title: YouDied
+---
+Oh no... You died! 
+Better luck next time!
+-> Play again
+    <<jump ChooseCharacter>>
+    
+===
+
+title: EnemyDefeated
+---
+Great job, you defeated the enemy!
+Welp, that's all in our adventure for now!
+Stay tuned for more...
+-> Play again
+    <<jump ChooseCharacter>>
+
+===
+

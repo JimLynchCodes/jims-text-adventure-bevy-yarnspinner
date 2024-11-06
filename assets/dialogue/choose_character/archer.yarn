@@ -1,0 +1,21 @@
+title: ChooseArcher
+---
+You're an archer now!
+An enemy approaches! What do you do?
+-> Run up and whack it with your bow!
+    Dude, that's how you use a bow an arrow...
+    <<jump YouDied>>
+-> Get just close enough for your arrows to reach the enemy.
+    You position yourself in a good spot and start shooting...
+    One of your arrows hits the enemy, and then your teammates finish him off!
+    <<jump EnemyDefeated>>
+-> Climb up into a tree.
+    You climb up into a tall tree and start shooting.
+    All of a sudden, you lose your balance and fall on your neck.
+    <<jump YouDied>>
+-> Run out into the field and scream like a headless chicken!
+    You run around blindly, and the enemy slashes you in half!
+    <<jump YouDied>>
+
+
+===

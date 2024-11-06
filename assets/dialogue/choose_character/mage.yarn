@@ -1,0 +1,24 @@
+title: ChooseMage
+---
+You're a mage now!
+An enemy approaches! What do you do?
+-> Punch it in the face.
+    You got to punch the enemy in the face, but you're a weak little mage! You shoulda used your magic!
+    The enemy slashed you with a sword!
+    <<jump YouDied>>
+-> Shoot fireballs at the enemy!
+    You start shooting fireballs, but the enemy somehow deflects them at your teammates!
+    You try to run away, but the enemy chases you down!
+    <<jump YouDied>>
+-> Shoot fireballs at the dry brush on the ground around the enemy.
+    You should fireballs, and the brush lights on fire.
+    All the smoke makes the enemy dizzy and confused, and your archer teammate hits the enemey from a distance.
+    You then finish off the enemy with a fireball fatality finish to the cranium.
+    Noice. 
+    <<jump EnemyDefeated>>
+-> Run out into the field and scream like a headless chicken!
+    You run around blindly, and the enemy slashes you in half!
+    <<jump YouDied>>
+
+
+===

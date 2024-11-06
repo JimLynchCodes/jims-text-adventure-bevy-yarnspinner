@@ -1,0 +1,17 @@
+// Test Script
+title: choice_test
+tags: test
+
+-> choice_example
+<<choose 0>> // Selects "Fight the monster"
+<<if $outcome == "fought">>
+    // Expected outcome: the player chose to fight
+    Outcome was fight
+<<endif>>
+
+-> choice_example
+<<choose 1>> // Selects "Run away"
+<<if $outcome == "fled">>
+    // Expected outcome: the player chose to run
+    Outcome was flee
+<<endif>>

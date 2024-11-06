@@ -1,0 +1,19 @@
+[package]
+name = "yarnspinner_examples"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/YarnSpinnerTool/YarnSpinner-Rust"
+homepage = "https://docs.yarnspinner.dev/"
+keywords = ["gamedev", "dialog", "yarn", "bevy"]
+categories = ["game-development", "compilers"]
+authors = ["Jim Lynch <jimlynchcodes@gmail.com>"]
+publish = false
+
+[dependencies]
+bevy = { version = "0.14.0", features = ["file_watcher"] }
+bevy_yarnspinner = "0.3.1"
+bevy_yarnspinner_example_dialogue_view = "0.3.0"
+
+[[bin]]
+name = "jims_text_game"
+doc = false
